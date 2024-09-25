@@ -12,15 +12,15 @@ Gerenciamento de Pacotes: O Node.js vem com o npm (Node Package Manager), que pe
 Ambiente de Execução: O Node.js fornece um ambiente consistente e leve para executar o Sass, permitindo que desenvolvedores trabalhem em diferentes sistemas operacionais sem problemas de compatibilidade.
 
 # Node para Windows
-winget install OpenJS.NodeJS
+- winget install OpenJS.NodeJS
 
 # Node para Linux (Ubuntu)
-sudo apt update
-sudo apt install nodejs npm
+- sudo apt update
+- sudo apt install nodejs npm
 
 # Verificar a instalação
-node -v
-npm -v
+- node -v
+- npm -v
 
 # Diferença entre a sintaxe do SASS e do SCSS
 
