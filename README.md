@@ -1,4 +1,4 @@
-# aula-sass
+# Aula-sass
 
 Sass (Syntactically Awesome Style Sheets) é uma extensão CSS que facilita o desenvolvimento de folhas de estilo. Ele adiciona recursos como variáveis, aninhamento, mixins e funções, permitindo que os desenvolvedores escrevam código CSS mais organizado e reutilizável. Com Sass, é possível criar estilos de forma mais eficiente, além de promover uma melhor manutenção do código. Ele compila arquivos Sass em CSS padrão, que pode ser entendido por todos os navegadores. Essa ferramenta é amplamente utilizada em projetos web para melhorar a produtividade e a estrutura do código.
 
@@ -37,3 +37,26 @@ SCSS:
 - Compatível com CSS, é possível copiar e colar código CSS sem precisar modificá-lo.
 
 Ambos suportam variáveis, mixins, funções e outras fncionalidades do SASS. No entanto, a forma de escrever varia de acordo com a sintaxe escolhida.
+
+# Mixins
+
+No SASS, mixins e @include são ferramentas que ajudam a reutilizar estilos e a manter o código organizado. Mixins são blocos de código que depois de definidos são possíveis de reutilização em diferentes partes do código. É possível incluir propriedades CSS, além de argumentos para personalização.
+
+- Exemplo de uso do mixins:
+- 
+  @mixin botão($cor, $tamanho) {
+  background-color: $cor;
+  color: white;
+  padding: $tamanho;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.botão-primário {
+  @include botão(#007bff, 10px);
+}
+
+.botão-secundário {
+  @include botão(#6c757d, 8px);
+}
