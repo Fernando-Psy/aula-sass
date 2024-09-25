@@ -43,7 +43,7 @@ Ambos suportam variáveis, mixins, funções e outras fncionalidades do SASS. No
 No SASS, mixins e @include são ferramentas que ajudam a reutilizar estilos e a manter o código organizado. Mixins são blocos de código que depois de definidos são possíveis de reutilização em diferentes partes do código. É possível incluir propriedades CSS, além de argumentos para personalização.
 
 - Exemplo de uso do mixins:
-- 
+  
   @mixin botão($cor, $tamanho) {
   background-color: $cor;
   color: white;
