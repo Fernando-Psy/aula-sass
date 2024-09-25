@@ -60,3 +60,35 @@ No SASS, mixins e @include são ferramentas que ajudam a reutilizar estilos e a 
 .botão-secundário {
   @include botão(#6c757d, 8px);
 }
+
+# Function no Sass
+
+A diretiva @function no SASS permite que você crie funççoes personalizadas que podem retornar valores. Isso é útil para calculos, manipulação de valores ou encapsular lógica que pode ser reutilizada em diferentes partes do código.
+
+- Exemplo de Função para Calcular Tamanhos de Tela
+
+// Função para calcular tamanhos de tela
+@function calcular-tamanho($valor, $largura-total) {
+  @return ($valor / $largura-total) * 100%; // Retorna um valor percentual
+}
+
+// Usando a função para definir tamanhos
+$largura-total: 1280px;
+
+.container {
+  width: calcular-tamanho(640px, $largura-total); // 50% da largura total
+}
+
+.sidebar {
+  width: calcular-tamanho(320px, $largura-total); // 25% da largura total
+}
+
+.main {
+  width: calcular-tamanho(960px, $largura-total); // 75% da largura total
+}
+
+# Benefícios do @function
+
+- Reutilização de cálculos: Funções permitem encapsular lógicas e cálculos, tornando o código mais limpo e fácil de manter.
+- Flexibilidade: Funções permitem que você trabalhe com valores dinâmicos, tornando as folhas de estilo mais adaptáveis.
+- Manutenção facilitada: Alterar a lógica de um cálculo em um único lugar atualiza todas as instâncias em que a função é utilizada.
