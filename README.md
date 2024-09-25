@@ -6,10 +6,10 @@ Sass (Syntactically Awesome Style Sheets) é uma extensão CSS que facilita o de
 
 Para utilizar o Sass, especialmente em sua versão mais moderna (Sass indented syntax ou SCSS), é necessário ter o Node.js instalado. Veja algumas razões para isso:
 
-Compilação: O Sass precisa ser compilado em CSS antes de ser utilizado em um projeto web. O Node.js fornece um ambiente para executar essa compilação de forma eficiente.
-Ferramentas de Desenvolvimento: Muitas ferramentas modernas de desenvolvimento front-end, como Gulp, Webpack e Parcel, utilizam Node.js para automatizar tarefas. Essas ferramentas podem integrar o Sass facilmente, permitindo a compilação automática sempre que um arquivo Sass é modificado.
-Gerenciamento de Pacotes: O Node.js vem com o npm (Node Package Manager), que permite instalar pacotes e bibliotecas, incluindo o Sass. Isso facilita a instalação e a atualização da ferramenta conforme necessário.
-Ambiente de Execução: O Node.js fornece um ambiente consistente e leve para executar o Sass, permitindo que desenvolvedores trabalhem em diferentes sistemas operacionais sem problemas de compatibilidade.
+- Compilação: O Sass precisa ser compilado em CSS antes de ser utilizado em um projeto web. O Node.js fornece um ambiente para executar essa compilação de forma eficiente.
+- Ferramentas de Desenvolvimento: Muitas ferramentas modernas de desenvolvimento front-end, como Gulp, Webpack e Parcel, utilizam Node.js para automatizar tarefas. Essas ferramentas podem integrar o Sass facilmente, permitindo a compilação automática sempre que um arquivo Sass é modificado.
+- Gerenciamento de Pacotes: O Node.js vem com o npm (Node Package Manager), que permite instalar pacotes e bibliotecas, incluindo o Sass. Isso facilita a instalação e a atualização da ferramenta conforme necessário.
+- Ambiente de Execução: O Node.js fornece um ambiente consistente e leve para executar o Sass, permitindo que desenvolvedores trabalhem em diferentes sistemas operacionais sem problemas de compatibilidade.
 
 # Node para Windows
 - winget install OpenJS.NodeJS
